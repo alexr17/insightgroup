@@ -45,5 +45,13 @@
                 </li>
             {% endif %}
         {% endif %}
+
+        {% if site.alumni == true %}
+            {% if page.title != "Alumni" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/alumni">Alumni</a>
+                </li>
+            {% endif %}
+        {% endif %}
     </ul>
 </nav>

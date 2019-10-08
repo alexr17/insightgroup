@@ -1,6 +1,7 @@
 # main text of home
 name: The Insight Group
 bio: Professional mentorship at Northwestern University
+home_bio: We know what NCA won't tell you. We are the ones plotting to take down NCS.
 
 # if it's an external image, update below for true
 # better with square images
@@ -70,15 +71,11 @@ width: large
 # paginate_path: "blog/:num/"
 
 events: true
-
 apply: true
-
 donate: true
-
-# if you don't need "about" or "blog", comment them out below
 about: true
-
 blog: true
+alumni: true
 
 # do you want to show the "read time" of the posts?
 read-time: true

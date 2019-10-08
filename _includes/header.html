@@ -3,12 +3,13 @@
    or page.title == "Events"
    or page.title == "Apply"
    or page.title == "Donate"
+   or page.title == "Alumni"
 %}{% assign showHeader = true %}{% endif %}
 
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
+            <a class="link" href="{{ site.url }}">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
             </a>
         {% else %}
@@ -21,6 +22,10 @@
         <h2 class="description">{{ site.bio }}</h2>
 
         {% include social-links.html %}
+
+        {% if page.title == "Home" %}
+        <p>{{site.home_bio}}</p>
+        {% endif %}
     </header>
 {% endif %}
 
