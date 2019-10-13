@@ -4,8 +4,8 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>About Paragraph</p>
+<p>{{ site.about.paragraph }}</p>
 
 ![Kellogg Image]({{ site.url }}/{{ site.kellogg }})
 
-<p>Maybe another paragraph here</p>
+<p>{{ site.about.henry_quote }}</p>

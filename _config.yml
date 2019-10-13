@@ -73,7 +73,9 @@ width: large
 events: true
 apply: true
 donate: true
-about: true
+about:
+  paragraph: Text here
+  henry_quote: blah
 blog: true
 alumni: true
 
