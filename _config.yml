@@ -74,7 +74,8 @@ events: true
 apply: true
 donate: true
 about:
-  paragraph: Text here
+  paragraph: The Insight Group was founded in 2008 by a small group of passionate undergraduates for the purpose of peer-guided career advancement. Since then, we have grown quite a bit, but our core mission has stayed the same. It is our belief that career advancement is a stressful and often overwhelming process for our peers at Northwestern University because existing institutions neglect to educate and prepare on an individual level.
+  Our core mission is to serve as an all-purpose career guide for the students of our Insight community, and of the broader Northwestern University community. It has been our priveledge over the last decade plus to learn and grow alongside such remarkable, distinguished communities.
   henry_quote: We at The Insight Group have always been, and will always be fueled by our potential for impact. Every student in our community should feel supported by our extensive network of mentors, and encouraged to pursue their passions. – Henry Forcier, Class of '21
 blog: true
 alumni: true
