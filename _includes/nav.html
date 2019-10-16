@@ -1,45 +1,61 @@
+{% if page.title == "Home" %}
+
 <nav class="nav-home">
     <ul class="list">
-        {% if page.title != "Home" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
-            </li>
-        {% endif %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/about">About</a>
+        </li>
 
-        {% if page.title != "About" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/about">About</a>
-            </li>
-        {% endif %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/events">Events</a>
+        </li>
 
-        {% if page.title != "Events" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/events">Events</a>
-            </li>
-        {% endif %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/apply">Apply</a>
+        </li>
 
-        {% if page.title != "Apply" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/apply">Apply</a>
-            </li>
-        {% endif %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/donate">Donate</a>
+        </li>
 
-        {% if page.title != "Donate" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/donate">Donate</a>
-            </li>
-        {% endif %}
-
-        {% if page.title != "Blog" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/blog">Blog</a>
-            </li>
-        {% endif %}
-
-        {% if page.title != "Alumni" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/alumni">Alumni</a>
-            </li>
-        {% endif %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/alumni">Alumni</a>
+        </li>
     </ul>
 </nav>
+
+{% else %}
+
+<nav class="navbar navbar-light navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img src="{{ site.url }}/{{ site.picture }}">
+    </a>
+    <ul id="navbar-title" class="nav navbar-nav mr-auto">
+        <a href="/"><h2>The Insight Group</h2></a>
+        
+    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="item">
+                <a class="link" href="{{site.url}}/about">About</a>
+            </li>
+            <li class="item">
+                <a class="link" href="{{site.url}}/events">Events</a>
+            </li>
+            <li class="item">
+                <a class="link" href="{{site.url}}/apply">Apply</a>
+            </li>
+            <li class="item">
+                <a class="link" href="{{site.url}}/donate">Donate</a>
+            </li>
+            <li class="item">
+                <a class="link" href="{{site.url}}/alumni">Alumni</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+{% endif %}
