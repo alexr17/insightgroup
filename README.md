@@ -1,5 +1,5 @@
 <p align="center">
-    <h2 align="center">The Insight Group website <a href="http://www.theinsightgroup.org/">Live</a></h2>
+    <h2 align="center">The Insight Group website | <a href="http://www.theinsightgroup.org/">Live</a></h2>
 </p>
 
 <p align="center">This is the website for the Insight Group, a student organization at Northwestern dedicated to mentoring undergraduates. It has been adapted from https://github.com/sergiokopplin/indigo.</p>
@@ -16,7 +16,7 @@
 
 ## Setup
 
-1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+1. Fork the project.
 2. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
 
 If you want to test locally on your machine, do the following steps also:
