@@ -1,6 +1,8 @@
 # --- HOME ---
 name: The Insight Group
 bio: Professional mentorship at Northwestern University
+
+# @Henry fill this in
 home_bio: Bio to see on the homepage
 
 
@@ -11,7 +13,7 @@ external-image: false
 picture: assets/images/logo-no-text.jpg
 kellogg: assets/images/kellogg.jpg
 
-url: http://theinsightgroup.org
+url: https://theinsightgroup.org
 
 permalink: /:title/
 
