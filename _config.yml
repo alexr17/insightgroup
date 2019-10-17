@@ -5,37 +5,64 @@ bio: Professional mentorship at Northwestern University
 # @Henry fill this in
 home_bio: Bio to see on the homepage
 
-
 # --- IMAGES ---
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/logo-no-text.jpg
+logo_no_text: assets/images/logo-no-text.jpg
+logo: assets/images/logo.jpg
 kellogg: assets/images/kellogg.jpg
 
+# --- BASE STUFF ---
+# keep this HTTPS
 url: https://theinsightgroup.org
-
 permalink: /:title/
-
 facebook: NUInsightGroup
 linkedin: company/v-insight-group-northwestern
 email: henry@theinsightgroup.org
 # spotify: myspotify
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: large
-
-events: true
-apply: true
-donate: true
+# --- ABOUT ---
 about:
-  paragraph: The Insight Group was founded in 2008 by a small group of passionate undergraduates for the purpose of peer-guided career advancement. Since then, we have grown quite a bit, but our core mission has stayed the same. It is our belief that career advancement is a stressful and often overwhelming process for our peers at Northwestern University because existing institutions neglect to educate and prepare on an individual level. Our core mission is to serve as an all-purpose career guide for the students of our Insight community, and of the broader Northwestern University community. It has been our priveledge over the last decade plus to learn and grow alongside such remarkable and distinguished communities of people.
+  history: The Insight Group was founded in 2008 by a small group of passionate undergraduates for the purpose of peer-guided career advancement.
+  now: Since then, we have grown quite a bit, but our core mission has stayed the same. It is our belief that career advancement is a stressful and often overwhelming process for our peers at Northwestern University because existing institutions neglect to educate and prepare on an individual level. 
+  mission: Our core mission is to serve as an all-purpose career guide for the students of our Insight community, and of the broader Northwestern University community. It has been our priviledge over the last decade plus to learn and grow alongside such remarkable and distinguished communities of people.
   henry_quote: We at The Insight Group have always been, and will always be fueled by our potential for impact. Every student in our community should feel supported by our extensive network of mentors, and encouraged to pursue their passions. – Henry Forcier, Class of '21
-alumni: true
 
-# --- BLOG STUFF HERE ---
+# --- EVENTS ---
+events: true
+
+# --- APPLY ---
+apply: true
+
+# --- DONATE ---
+donate: true
+
+# --- ALUMNI ---
+alumni:
+  first:
+    name: Sheil Catholic Center
+    bio: Sheil is actually super great they allow this site to be hosted for free.
+    work: Worked at Bain, BCG, McKinsey (lmao)
+    img: assets/images/logo.jpg
+  second:
+    name: Meghan Markle
+    bio: Is a princess, need I say more?
+    work: USA Television network
+    img: assets/images/logo.jpg
+  third:
+    name: Stephen Colbert
+    bio: Comedic genius, may have hit his peak already though.
+    work: Worked at CBS, Comedy Central
+    img: assets/images/logo.jpg
+  fourth:
+    name: Morton Schapiro
+    bio: schapussy
+    work: Northwestern University
+    img: assets/images/logo.jpg
+
+
+# --- BLOG STUFF HERE (not currently being used)---
 # blog: true
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -105,8 +132,3 @@ exclude:
     ".gitignore",
     "CNAME",
   ]
-
-
-
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
