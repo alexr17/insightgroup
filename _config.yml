@@ -15,7 +15,7 @@ kellogg: assets/images/kellogg.jpg
 
 # --- BASE STUFF ---
 # keep this HTTPS
-url: https://theinsightgroup.org
+url: https://www.theinsightgroup.org
 permalink: /:title/
 facebook: NUInsightGroup
 linkedin: company/v-insight-group-northwestern
