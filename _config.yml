@@ -40,26 +40,37 @@ donate: true
 
 # --- ALUMNI ---
 alumni:
+  paragraph: These are our esteemed alumni - look how cool they are!
   first:
     name: Sheil Catholic Center
     bio: Sheil is actually super great they allow this site to be hosted for free.
     work: Worked at Bain, BCG, McKinsey (lmao)
-    img: assets/images/logo.jpg
+    img: assets/images/logo-no-text.jpg
   second:
     name: Meghan Markle
     bio: Is a princess, need I say more?
     work: USA Television network
-    img: assets/images/logo.jpg
+    img: assets/images/logo-no-text.jpg
   third:
     name: Stephen Colbert
     bio: Comedic genius, may have hit his peak already though.
     work: Worked at CBS, Comedy Central
-    img: assets/images/logo.jpg
+    img: assets/images/logo-no-text.jpg
   fourth:
     name: Morton Schapiro
     bio: schapussy
     work: Northwestern University
-    img: assets/images/logo.jpg
+    img: assets/images/logo-no-text.jpg
+  fifth:
+    name: Morton Schapiro
+    bio: schapussy
+    work: Northwestern University
+    img: assets/images/logo-no-text.jpg
+  sixth:
+    name: Morton Schapiro
+    bio: schapussy
+    work: Northwestern University
+    img: assets/images/logo-no-text.jpg
 
 
 plugins:
