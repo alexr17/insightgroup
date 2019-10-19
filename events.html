@@ -1,0 +1,33 @@
+---
+title: Events
+layout: page
+---
+<div class="row">
+    <div class="col-sm-12">
+        <p>{{site.events.paragraph}}</p>
+    </div>
+</div>
+<div class="row">
+    {% if site.events.first.description %}
+    <div class="col-sm-6">
+        <div class="card border-0">
+            <img class="card-img-top" src="{{site.url}}/{{site.events.first.img}}" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title">{{ site.events.first.title }}</h3>
+                <p class="card-text">{{ site.events.first.description }}</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.events.second.description %}
+    <div class="col-sm-6">
+        <div class="card border-0">
+            <img class="card-img-top" src="{{site.url}}/{{site.events.second.img}}" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title">{{ site.events.second.title }}</h3>
+                <p class="card-text">{{ site.events.second.description }}</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>

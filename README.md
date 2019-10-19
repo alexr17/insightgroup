@@ -29,7 +29,7 @@ If you want to test locally on your machine, do the following steps also:
 
 ## Settings
 
-You must fill some informations on `_config.yml` to customize your site.
+You must fill some information on `_config.yml` to customize your site.
 
 ### Contributing
 

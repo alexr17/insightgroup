@@ -1,4 +1,0 @@
----
-title: Apply
-layout: page
----

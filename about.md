@@ -32,7 +32,7 @@ layout: page
     <div class="card border-0">
       <!-- <img class="card-img-top" src="{{site.url}}/{{site.kellogg}}" alt="Kellogg Image"> -->
       <div class="card-body">
-        <h3 class="card-title">A message from El Presidentè</h3>
+        <h3 class="card-title">A message from the President</h3>
         <p class="card-text">{{ site.about.henry_quote }}</p>
       </div>
     </div>

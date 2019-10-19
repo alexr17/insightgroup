@@ -30,10 +30,22 @@ about:
   henry_quote: We at The Insight Group have always been, and will always be fueled by our potential for impact. Every student in our community should feel supported by our extensive network of mentors, and encouraged to pursue their passions. – Henry Forcier, Class of '21
 
 # --- EVENTS ---
-events: true
+events:
+  paragraph: There are currently no scheduled events.
+  first:
+    title:
+    description:
+    img:
+  second:
+    title:
+    description:
+    img:
 
 # --- APPLY ---
-apply: true
+apply:
+  paragraph: Applications will open up soon for the 2019-2020 school year! Check back in late October.
+  link:
+  # @Henry put link here for applications
 
 # --- DONATE ---
 donate: true
@@ -58,17 +70,17 @@ alumni:
     img: assets/images/logo.jpg
   fourth:
     name: Morton Schapiro
-    bio: schapussy
+    bio: 
     work: Northwestern University
     img: assets/images/logo.jpg
   fifth:
     name: Morton Schapiro
-    bio: schapussy
+    bio: 
     work: Northwestern University
     img: assets/images/logo.jpg
   sixth:
     name: Morton Schapiro
-    bio: schapussy
+    bio: 
     work: Northwestern University
     img: assets/images/logo.jpg
 
