@@ -11,6 +11,12 @@
     {% include social-links.html %}
 
     <p>{{site.home_bio}}</p>
+
+    {% if site.apply.link %}
+        <div class="text-center">
+            <a id="apply-link" role="button" class="btn btn-outline-dark btn-lg" target="_blank" href="{{site.apply.link}}" rel="noopener"><h3>Apply Now!</h3></a>
+        </div>
+    {% endif %}
 </header>
 {% endif %}
 
