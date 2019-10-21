@@ -3,7 +3,7 @@ name: The Insight Group
 bio: Professional mentorship at Northwestern University
 
 # @Henry fill this in
-home_bio: Bio to see on the homepage
+home_bio: Impact through insight is our ethos
 
 # --- IMAGES ---
 # if it's an external image, update below for true
@@ -31,7 +31,7 @@ about:
 
 # --- EVENTS ---
 events:
-  paragraph: There are currently no scheduled events.
+  paragraph: Our annual Consulting vs. Investment Banking event will occur sometime in November, however dates have not yet been finalized.
   first:
     title:
     description:
@@ -43,7 +43,7 @@ events:
 
 # --- APPLY ---
 apply:
-  paragraph: Applications will open up soon for the 2019-2020 school year! Check back in late October.
+  paragraph: Applications will open soon for our newest class of general members! Check back in early November.
   link:
   # @Henry put link here for applications
 
@@ -52,36 +52,36 @@ donate: true
 
 # --- ALUMNI ---
 alumni:
-  paragraph: These are our esteemed alumni - look how cool they are!
+  paragraph: Our alumni are a testament to the impact we have created for Northwestern University undergraduates since 2008. This page highlights the current Advisory Board of The Insight Group, which is a select group of alumni committed to the continued service of our mission and the development of our Executive Board. 
   first:
-    name: Sheil Catholic Center
-    bio: Sheil is actually super great they allow this site to be hosted for free.
-    work: Worked at Bain, BCG, McKinsey (lmao)
+    name: Blair Kessler
+    bio: Founder of The Insight Group
+    work: Engagement Manager at McKinsey & Company
     img: assets/images/logo.jpg
   second:
-    name: Meghan Markle
-    bio: Is a princess, need I say more?
-    work: USA Television network
+    name: Tanisha Patni
+    bio: Former President of The Insight Group
+    work: Corporate Finance Senior Analyst at Zynga
     img: assets/images/logo.jpg
   third:
-    name: Stephen Colbert
-    bio: Comedic genius, may have hit his peak already though.
-    work: Worked at CBS, Comedy Central
+    name: Raghav Kapur
+    bio: Former President of The Insight Group
+    work: Associate at PwC Strategy&
     img: assets/images/logo.jpg
   fourth:
-    name: Morton Schapiro
-    bio: 
-    work: Northwestern University
+    name: Michael Oppenheim
+    bio: Former President of The Insight Group
+    work: Business Analyst at The Cambridge Group
     img: assets/images/logo.jpg
   fifth:
-    name: Morton Schapiro
-    bio: 
-    work: Northwestern University
+    name: Michelle Lu
+    bio: Former Director of Programming
+    work: Associate at PwC Strategy&
     img: assets/images/logo.jpg
   sixth:
-    name: Morton Schapiro
-    bio: 
-    work: Northwestern University
+    name: Eshawn Sharma
+    bio: Former President of The Insight Group
+    work: Associate Consultant at Bain & Company
     img: assets/images/logo.jpg
 
 
